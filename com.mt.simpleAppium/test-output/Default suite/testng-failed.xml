@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest">
+      <class name="com.mt.simpleAppium.gestures.DragAndDropWithCordinates">
         <methods>
-          <include name="OpenServer"/>
-          <include name="startTheApp"/>
-          <include name="closeTheServer"/>
-          <include name="verifyCheckOutWithWebsiteTest"/>
-          <include name="closeTheApp"/>
+          <include name="DragAndDropWithCordinatesTest"/>
         </methods>
-      </class> <!-- com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest -->
+      </class> <!-- com.mt.simpleAppium.gestures.DragAndDropWithCordinates -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

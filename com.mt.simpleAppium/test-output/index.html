@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sagar\AppData\Local\Temp\testng-eclipse-774711473\testng-customsuite.xml</span>
+                    <span>C:\Users\sagar\AppData\Local\Temp\testng-eclipse--958784554\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest" class="method navigator-link" hash-for-method="verifyCheckOutWithWebsiteTest">verifyCheckOutWithWebsiteTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.mt.simpleAppium.gestures.DragAndDropWithCordinates" class="method navigator-link" hash-for-method="DragAndDropWithCordinatesTest">DragAndDropWithCordinatesTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,18 +121,22 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest</span>
+              <span class="class-name">com.mt.simpleAppium.gestures.DragAndDropWithCordinates</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCheckOutWithWebsiteTest">
-                  </a> <!-- verifyCheckOutWithWebsiteTest -->
-                  <span class="method-name">verifyCheckOutWithWebsiteTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
+                  <a name="DragAndDropWithCordinatesTest">
+                  </a> <!-- DragAndDropWithCordinatesTest -->
+                  <span class="method-name">DragAndDropWithCordinatesTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [] but found [Dropped!]
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest.verifyCheckOutWithWebsiteTest(VerifyCheckOutWithWebsiteTest.java:23)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.mt.simpleAppium.gestures.DragAndDropWithCordinates.DragAndDropWithCordinatesTest(DragAndDropWithCordinates.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,7 +174,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sagar\AppData\Local\Temp\testng-eclipse-774711473\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sagar\AppData\Local\Temp\testng-eclipse--958784554\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -179,11 +183,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest&quot;&gt;
+      &lt;class name=&quot;com.mt.simpleAppium.gestures.DragAndDropWithCordinates&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;verifyCheckOutWithWebsiteTest&quot;/&gt;
+          &lt;include name=&quot;DragAndDropWithCordinatesTest&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest --&gt;
+      &lt;/class&gt; &lt;!-- com.mt.simpleAppium.gestures.DragAndDropWithCordinates --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -225,14 +229,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyCheckOutWithWebsiteTest')
-data.setCell(0, 2, 'com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest')
-data.setCell(0, 3, 41991);
+data.setCell(0, 1, 'DragAndDropWithCordinatesTest')
+data.setCell(0, 2, 'com.mt.simpleAppium.gestures.DragAndDropWithCordinates')
+data.setCell(0, 3, 54369);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -258,31 +262,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">OpenServer</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <span class="method-name">startTheApp</span>
-                <span class="method-start">128 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">com.mt.simpleAppium.gestures.DragAndDropWithCordinates</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyCheckOutWithWebsiteTest</span>
-                <span class="method-start">10347 ms</span>
+                <span class="method-name">DragAndDropWithCordinatesTest</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeTheApp</span>
-                <span class="method-start">53575 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-suite after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">closeTheServer</span>
-                <span class="method-start">54307 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -34,12 +34,12 @@ public class DragAndDropWithCordinates {
 		
 		
 		DesiredCapabilities dc =new DesiredCapabilities();
-		dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
-		dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 6 API 33");
-		dc.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
-		dc.setCapability(MobileCapabilityType.UDID,"emulator-5554");
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 4");
+        dc.setCapability(MobileCapabilityType.UDID, "emulator-5554");
+        dc.setCapability(MobileCapabilityType, false);
 		dc.setCapability("appPackage", "io.appium.android.apis");
 		dc.setCapability("appActivity", ".ApiDemos");
+		
 		
 		URL u=new URL("http://localhost:4723");
 		

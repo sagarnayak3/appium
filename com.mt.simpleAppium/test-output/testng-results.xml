@@ -2,29 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T16:35:42 IST" name="Default suite" finished-at="2023-06-21T16:36:36 IST" duration-ms="54147">
+  <suite started-at="2023-07-07T10:52:23 IST" name="Default suite" finished-at="2023-07-07T10:53:17 IST" duration-ms="54512">
     <groups>
     </groups>
-    <test started-at="2023-06-21T16:35:42 IST" name="Default test" finished-at="2023-06-21T16:36:36 IST" duration-ms="54147">
-      <class name="com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest">
-        <test-method is-config="true" signature="OpenServer()[pri:0, instance:com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest@4a003cbe]" started-at="2023-06-21T16:35:42 IST" name="OpenServer" finished-at="2023-06-21T16:35:42 IST" duration-ms="98" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenServer -->
-        <test-method is-config="true" signature="startTheApp()[pri:0, instance:com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest@4a003cbe]" started-at="2023-06-21T16:35:42 IST" name="startTheApp" finished-at="2023-06-21T16:35:52 IST" duration-ms="10219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTheApp -->
-        <test-method signature="verifyCheckOutWithWebsiteTest()[pri:0, instance:com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest@4a003cbe]" started-at="2023-06-21T16:35:52 IST" name="verifyCheckOutWithWebsiteTest" finished-at="2023-06-21T16:36:34 IST" duration-ms="41991" status="FAIL">
+    <test started-at="2023-07-07T10:52:23 IST" name="Default test" finished-at="2023-07-07T10:53:17 IST" duration-ms="54512">
+      <class name="com.mt.simpleAppium.gestures.DragAndDropWithCordinates">
+        <test-method signature="DragAndDropWithCordinatesTest()[pri:0, instance:com.mt.simpleAppium.gestures.DragAndDropWithCordinates@33065d67]" started-at="2023-07-07T10:52:23 IST" name="DragAndDropWithCordinatesTest" finished-at="2023-07-07T10:53:17 IST" duration-ms="54369" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[expected [] but found [Dropped!]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
+              <![CDATA[java.lang.AssertionError: expected [] but found [Dropped!]
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest.verifyCheckOutWithWebsiteTest(VerifyCheckOutWithWebsiteTest.java:23)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.mt.simpleAppium.gestures.DragAndDropWithCordinates.DragAndDropWithCordinatesTest(DragAndDropWithCordinates.java:65)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,45 +54,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCheckOutWithWebsiteTest -->
-        <test-method is-config="true" signature="closeTheApp()[pri:0, instance:com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest@4a003cbe]" started-at="2023-06-21T16:36:35 IST" name="closeTheApp" finished-at="2023-06-21T16:36:36 IST" duration-ms="667" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTheApp -->
-        <test-method is-config="true" signature="closeTheServer()[pri:0, instance:com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest@4a003cbe]" started-at="2023-06-21T16:36:36 IST" name="closeTheServer" finished-at="2023-06-21T16:36:36 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "io.appium.java_client.service.local.AppiumDriverLocalService.close()" because "this.service" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.appium.java_client.service.local.AppiumDriverLocalService.close()" because "this.service" is null
-at com.GenaralStore.GenericUtilities.BaseClass.closeTheServer(BaseClass.java:80)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:410)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTheServer -->
-      </class> <!-- com.GenaralStore.TestScripts.VerifyCheckOutWithWebsiteTest -->
+        </test-method> <!-- DragAndDropWithCordinatesTest -->
+      </class> <!-- com.mt.simpleAppium.gestures.DragAndDropWithCordinates -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
